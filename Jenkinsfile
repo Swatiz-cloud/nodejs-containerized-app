@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-username/nodejs-mysql-app.git'
+                git 'https://github.com/Swatiz-cloud/nodejs-containerized-app.git'
             }
         }
 
